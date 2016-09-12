@@ -1,0 +1,23 @@
+/*
+ Theme Name:     Molecule Child Theme
+ Theme URI:      https://element502.com
+ Description:    A bare-bones child theme for use with Molecule Theme from <a href="https://wordpress.org/">Wordpress</a>. To use this Child Theme, you must have <a href="https://wordpress.org/themes/molecule/">molecule</a> parent theme installed.
+ Author:         Jason Davs
+ Author URI:     http://twitter.com/jasondaledavis
+ Template:       molecule
+ Version:        0.9
+*/
+ 
+/* Add Custom CSS after this line */
+.header-top {
+	position: absolute;
+	background: transparent;
+	box-shadow: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4); 
+}
+.site-header-menu {
+	margin:0 !important;
+}
+.site-header-main {
+    float: right !important;
+}
