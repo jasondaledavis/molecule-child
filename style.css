@@ -1,11 +1,11 @@
 /*
  Theme Name:     Molecule Child Theme
- Theme URI:      https://element502.com
+ Theme URI:      http://molecule.element502.com
  Description:    A bare-bones child theme for use with Molecule Theme from <a href="https://wordpress.org/">Wordpress</a>. To use this Child Theme, you must have <a href="https://wordpress.org/themes/molecule/">molecule</a> parent theme installed.
  Author:         Jason Davs
- Author URI:     http://twitter.com/jasondaledavis
+ Author URI:     https://profiles.wordpress.org/batgeek
  Template:       molecule
- Version:        0.9
+ Version:        1.0
 */
  
 /* Add Custom CSS after this line */
@@ -15,9 +15,48 @@
 	box-shadow: none;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.4); 
 }
+img.custom-logo {
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    max-width: 120px;
+    text-align: center;
+    padding: 0;
+    z-index: 9999;
+    /* margin: 0 auto; */
+}
+@media screen and (min-width: 61.5625em)
+.custom-logo {
+    max-width: 120px;
+}
+
+@media screen and (min-width: 44.375em)
+.custom-logo {
+    max-width: 120px;
+}
 .site-header-menu {
 	margin:0 !important;
 }
 .site-header-main {
     float: right !important;
+}
+.home .page-content,
+.page-content {
+    max-width: 1200px !important;
+    width: 100% !important;
+    margin:0 auto;
+    padding:40px 0;
+	word-wrap: break-word;
+}
+
+.main-navigation a::before {
+    background: #84bd00 !important;
+}
+
+.main-navigation a:hover, .main-navigation a:focus {
+    color: #84bd00 !important;
+}
+
+.entry-content a, .entry-summary a, .taxonomy-description a, .logged-in-as a, .comment-content a, .pingback .comment-body > a, .textwidget a, .entry-footer a:hover {
+    box-shadow: 0 0 0 0 none;
 }

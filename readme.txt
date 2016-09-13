@@ -4,10 +4,6 @@ A ready to modify bare-bones child theme for use with Molecule Theme.
 
 To use this Child Theme, you must have Molecule parent theme installed.
 
-For more information about Molecule Child Theme please go to:
-http://hyperlinkcode.com/blog/twenty-sixteen-child-theme/
-
-
 For more information about Molecule parent theme please go to:
 https://wordpress.org/themes/molecule/
 ==
@@ -32,7 +28,7 @@ Installation
 ==
 Copyright
 ==
-Molecule Child Theme, Copyright 2016 Ed Zivkovic and HyperlinkCode.com
+Molecule Child Theme, Copyright 2016 Jason Davis
 
 ==
 Molecule Child Theme is distributed under the terms of the GNU GPL
@@ -46,17 +42,3 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of 
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0.html
-==
-
-More free Child Themes:
-http://hyperlinkcode.com/blog/category/free-downloads/
-
-Please join the blog updates mailing list to be informed when new content is published.
-
-Best regards,
-
-Ed Zivkovic
---
-http://www.ezau.com
-http://HyperlinkCode.com
-http://DrivingBusinessOnline.com
