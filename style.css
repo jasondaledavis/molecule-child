@@ -9,31 +9,28 @@
 */
  
 /* Add Custom CSS after this line */
-.header-top {
-	position: absolute;
-	background: transparent;
-	box-shadow: none;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.4); 
-}
-.site-header-menu {
-	margin:0 !important;
-}
-.site-header-main {
-    float: right !important;
-}
-.home .page-content,
-.page-content {
-    max-width: 1200px !important;
-    width: 100% !important;
-    margin:0 auto;
-    padding:40px 0;
-	word-wrap: break-word;
-}
 
-.main-navigation a::before {
-    background: #84bd00 !important;
-}
 
-.main-navigation a:hover, .main-navigation a:focus {
-    color: #84bd00 !important;
-}
+/* CSS FOR FIXED HEADER FLOAT LOGO LEFT AND NAV RIGHT
+
+.footer-global {background:#111;}
+.footer-global p a,.footer-global .copyright-info {color:#ccc;text-transform:none;font-size:12px}
+.main-navigation {background:#eee;}
+img.custom-logo {text-align: left;margin: 0;}
+.main-navigation a::before {background:#3cc8ee}
+.site-header-main {margin-top:-7%;float: right;}
+.header-top-dark img.custom-logo, .header-top-dark .logo {display: block;}
+.header-top-dark .site-header-main {margin-top:-6%}
+.header-top-dark {padding: 0;}
+.logo {padding: 10px 0 0;}
+*/
+
+/* CSS HERE MAKES HEADER FLOAT LOGO LEFT AND NAV RIGHT FOR FULL SCREEN LAYOUT 
+
+.header-top {position: absolute;background: transparent;box-shadow: none;border-bottom: 1px solid rgba(255, 255, 255, 0.4);}
+.site-header-menu {margin:0 !important;}
+.site-header-main {float: right !important;}
+.home .page-content,.page-content {max-width: 1200px !important;width: 100% !important;margin:0 auto;padding:40px 0;word-wrap: break-word;}
+.main-navigation a::before {background: #84bd00 !important;}
+.main-navigation a:hover, .main-navigation a:focus {color: #84bd00 !important;}
+*/
