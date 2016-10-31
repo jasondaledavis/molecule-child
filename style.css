@@ -12,17 +12,12 @@
 
 
 /* CSS FOR FIXED HEADER FLOAT LOGO LEFT AND NAV RIGHT
-
-.footer-global {background:#111;}
-.footer-global p a,.footer-global .copyright-info {color:#ccc;text-transform:none;font-size:12px}
-.main-navigation {background:#eee;}
-img.custom-logo {text-align: left;margin: 0;}
-.main-navigation a::before {background:#3cc8ee}
-.site-header-main {margin-top:-7%;float: right;}
-.header-top-dark img.custom-logo, .header-top-dark .logo {display: block;}
-.header-top-dark .site-header-main {margin-top:-6%}
-.header-top-dark {padding: 0;}
-.logo {padding: 10px 0 0;}
+.header-top {box-shadow:none;}
+.logo,img.custom-logo {max-width:120px;padding:10px 0;float:left;}
+.main-navigation {padding:40px 0 0;margin:0}
+.site-header-menu {margin:0}
+.site-header-main {float:right}
+.site-title {margin:-1px 0 0 0 !important;font-size:1em;float:right;text-align:right;}
 */
 
 /* CSS HERE MAKES HEADER FLOAT LOGO LEFT AND NAV RIGHT FOR FULL SCREEN LAYOUT 
