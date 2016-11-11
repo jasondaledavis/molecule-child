@@ -5,7 +5,7 @@
  Author:         Jason Davs
  Author URI:     https:nerdbrand.me
  Template:       molecule
- Version:        1.0
+ Version:        1.1
 */
  
 /* Add Custom CSS after this line */
@@ -29,3 +29,78 @@
 .main-navigation a::before {background: #84bd00 !important;}
 .main-navigation a:hover, .main-navigation a:focus {color: #84bd00 !important;}
 */
+
+/* GRAVITY FORMS CUSTOMIZATIONS - add class before .gform_ to target specific forms!!!!! */
+/* turn off (*) and labes below fields in GF *
+.gform_wrapper .gfield_required,.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+    display:none;
+}
+/* reset left and right class for inline form
+.gform_wrapper .top_label li.gfield.gf_left_half, 
+.gform_wrapper .top_label li.gfield.gf_right_half {
+    width: 38%;
+}
+/* position footer with submit button (add close close comment tag here)
+.gform_wrapper .gform_footer {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 77%;
+    bottom: 4%;
+}
+/* styles for inputs and button
+.gform_wrapper input {
+    background:transparent;
+    border:solid 1px #eee;
+    color:#eee;
+}
+.gform_wrapper input:focus {
+    background:transparent !important;
+    color:white;
+    border:solid 1px white;
+}
+.gform_wrapper .gform_footer input.button {
+    border:solid 2px #78aa03;
+    padding:15px;
+    background:#84bd00;
+}
+/* placeholder styles (add close close comment tag here)
+::-webkit-input-placeholder {
+    color: #f0f0f0;
+    opacity:.7;
+}
+:-moz-placeholder {
+    color: #f0f0f0;
+    opacity:.7;
+}
+::-moz-placeholder {
+    color: #f0f0f0;
+    opacity:.7;
+}
+:-ms-input-placeholder {
+    color: #f0f0f0;
+    opacity:.7;
+}
+/* validation error styles (add close close comment tag here)
+.gform_wrapper .validation_message {}
+.gform_wrapper div.validation_error {}
+/* confirmation styles 
+.gform_confirmation_wrapper {}
+
+/* for responsive gf_left_half and gf_right_half classes */
+/*@media screen and (max-width: 33em) {
+
+	.gform_wrapper .top_label li.gfield.gf_left_half, 
+	.gform_wrapper .top_label li.gfield.gf_right_half {
+	    width: 100%;
+	}
+	 /* re-position submit button responsively on inline form (add close close comment tag here)
+	.gform_wrapper .gform_footer {
+	    position: relative;
+	    bottom: 0;
+	    left: 0;
+	    margin: 50px 0 0;
+	    padding: 0;
+	}
+
+}*/
