@@ -5,7 +5,9 @@ A ready to modify bare-bones child theme for use with Molecule Theme.
 To use this Child Theme, you must have Molecule parent theme installed.
 
 For more information about Molecule parent theme please go to:
+
 https://wordpress.org/themes/molecule/
+
 ==
 Installation
 ==
@@ -50,4 +52,13 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 * First Release!
 
 = 1.1 =
+
 * Added CSS to comment out for Gravity Forms plugin forms positioning and header positioning.
+
+= 1.2 =
+
+* Updated for molecule 1.9
+
+= 1.3 =
+
+* Updated for molecule 2.1.2

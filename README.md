@@ -58,3 +58,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 = 1.2 =
 
 * Updated for molecule 1.9
+
+= 1.3 =
+
+* Updated for molecule 2.1.2
