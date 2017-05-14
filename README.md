@@ -62,3 +62,8 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 = 1.3 =
 
 * Updated for molecule 2.1.2
+
+= 1.3.1 =
+
+* Updated theme author URI
+* Fixed issues with post author not appearing
