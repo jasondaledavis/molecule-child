@@ -67,3 +67,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 
 * Updated theme author URI
 * Fixed issues with post author not appearing
+
+= 1.3.2 =
+
+* Added CSS to reposition on scroll header logo and nav.
