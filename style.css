@@ -5,18 +5,106 @@
  Author:         Jason Davs
  Author URI:     https://jasondavisdesigns.com
  Template:       molecule
- Version:        1.3.2
+ Version:        1.4
 */
 
 /* change position of logo and nav via CSS with this code */
 .header-top-dark .site-title {text-align:left;}
 .header-top-dark img.custom-logo {margin: 0;}
 .header-top-dark {min-height: 57px;}
-.header-top-dark .main-navigation-row {position:absolute;right:0;top:0;}
+.header-top-dark .main-navigation-row {position:absolute;right:4%;top:0;}
 
-@media screen and (max-width: 48em) {.header-top-dark .main-navigation-row {position:relative;}}
-@media screen and (max-width: 33em) {.header-top-dark .main-navigation-row {position:relative;}}
+@media screen and (max-width: 48em) {.header-top-dark .main-navigation-row {position:relative;right: 0;}}
+@media screen and (max-width: 33em) {.header-top-dark .main-navigation-row {position:relative;right: 0;}}
 
- 
-/* Add Custom CSS after this line */
+.woocommerce span.onsale {
+    border-radius: 0;
+}
+.woocommerce div.product div.images img,
+.woocommerce ul.products li.product a img {
+    border: solid 1px #cecece;
+    box-shadow: 1px 1px 12px #ccc;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.woocommerce div.product div.images img:hover,
+.woocommerce ul.products li.product a img:hover {
+    border: solid 1px #cecece;
+    box-shadow: none;
+}
+.woocommerce ul.products li.product .price,
+.woocommerce ul.products li.product .woocommerce-loop-category__title, 
+.woocommerce ul.products li.product .woocommerce-loop-product__title, 
+.woocommerce ul.products li.product h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.woocommerce .products .star-rating {
+    margin:0 auto;
+    text-align: center;
+}
+.woocommerce ul.products li.product .price ins {
+    color:#333;
+}
 
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+    margin:0 auto;
+    text-align: center;
+    background: transparent;
+    border: solid 2px #222222;
+    border-radius: 0px;
+    color: #222222;
+    font-weight: normal;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: .6em .9em;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.woocommerce ul.products li.product .button {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+}
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover,
+.woocommerce ul.products li.product .button:hover,
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover {
+    background: #222222;
+    color: white;
+}
+#coupon_code {
+    width: 55%;
+}
+.select2-container .select2-selection--single {
+    height: 54px;
+    padding: 12px 2px;
+    background: #f0f0f0;
+}
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message,
+.woocommerce-info {
+    border-top-color: rgb(94, 167, 177)
+}
