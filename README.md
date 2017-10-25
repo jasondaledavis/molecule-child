@@ -47,27 +47,6 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 
 == Changelog ==
 
-= 1.0 =
+= 1.4.1 =
 
-* First Release!
-
-= 1.1 =
-
-* Added CSS to comment out for Gravity Forms plugin forms positioning and header positioning.
-
-= 1.2 =
-
-* Updated for molecule 1.9
-
-= 1.3 =
-
-* Updated for molecule 2.1.2
-
-= 1.3.1 =
-
-* Updated theme author URI
-* Fixed issues with post author not appearing
-
-= 1.3.2 =
-
-* Added CSS to reposition on scroll header logo and nav.
+* commented out demo code in style.css

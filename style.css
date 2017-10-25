@@ -5,10 +5,10 @@
  Author:         Jason Davs
  Author URI:     https://jasondavisdesigns.com
  Template:       molecule
- Version:        1.4
+ Version:        1.4.1
 */
 
-/* change position of logo and nav via CSS with this code */
+/* change position of logo and nav via CSS with this code 
 .header-top-dark .site-title {text-align:left;}
 .header-top-dark img.custom-logo {margin: 0;}
 .header-top-dark {min-height: 57px;}
@@ -107,4 +107,4 @@
 .woocommerce-message,
 .woocommerce-info {
     border-top-color: rgb(94, 167, 177)
-}
+}*/
