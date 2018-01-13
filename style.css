@@ -1,22 +1,451 @@
 /*
  Theme Name:     Molecule Child Theme
  Theme URI:      https://molecule.element502.com
- Description:    A bare-bones child theme for use with Molecule Theme from <a href="https://wordpress.org/">Wordpress</a>. To use this Child Theme, you must have <a href="https://wordpress.org/themes/molecule/">molecule</a> parent theme installed.
+ Description:    This is for demo purposes.
  Author:         Jason Davs
- Author URI:     https://jasondavisdesigns.com
+ Author URI:     https://github.com/jasondaledavis
  Template:       molecule
- Version:        1.4.1
+ Version:        1.6
 */
 
-/* change position of logo and nav via CSS with this code 
-.header-top-dark .site-title {text-align:left;}
-.header-top-dark img.custom-logo {margin: 0;}
-.header-top-dark {min-height: 57px;}
-.header-top-dark .main-navigation-row {position:absolute;right:4%;top:0;}
+/*THIS IS CUSTOM CSS FOR THE MOLECULE DEMO - DELETE AND REPLACE WITH YOURS BELOW*/
 
-@media screen and (max-width: 48em) {.header-top-dark .main-navigation-row {position:relative;right: 0;}}
-@media screen and (max-width: 33em) {.header-top-dark .main-navigation-row {position:relative;right: 0;}}
+/*TYPOGRAPHY*/
+body, button, input, select, optgroup, textarea {
+    color: #111;
+    line-height: 1.5;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+a,
+a:visited {
+    color: #009fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+p {
+    color: #111;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+}
+blockquote {
+    border-left:5px solid #ffddcc;
+    background:#f7f7f7;
+    padding:50px;
+}
 
+/*HOME PAGE HEADING TITLES*/
+h1.vc_custom_heading.hero-content {
+    font-size: 5.4em;
+    font-weight: 300;
+    letter-spacing: 15px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+h2.vc_custom_heading.hero-content {
+    color: #252525;
+    font-size: 1.1em;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+/*HOME PAGE POST GRID TITLES*/
+.works-info-title h3 {
+    color: #222;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+}
+
+/*HEADER STYLES*/
+.header-top .site-header-main {
+    float: right;
+    padding-top: 3px;
+}
+.header-top-dark .site-header-main {
+    float: right;
+}
+.header-top {
+    background: rgba(255,255,255,1);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.header-top-dark {
+    background: #fff;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.header-top .logo {
+    padding: 20px 0 20px;
+}
+.header-top img.custom-logo,
+.header-top-dark img.custom-logo {
+    max-width: 140px;
+    margin:0;
+}
+.header-top-dark .logo {
+    padding: 15px 0 0;
+}
+.header-top-dark .main-navigation, 
+.header-top .main-navigation {
+    padding: 10px 0 5px;
+}
+.header-top .main-navigation a {
+    color: #222;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    padding-top: 12px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.header-top .main-navigation a:hover {
+    color: #009fff;
+}
+.header-top-dark .main-navigation a:hover {
+    color: #009fff;
+}
+.header-top-dark .main-navigation a {
+    color: #222;
+    font-size:13px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/*NAV STYLES*/
+.main-navigation a::before {
+    background: #fff;
+}
+.menu-toggle {
+    border:none;
+}
+
+/*PAGE HEADER STYLES*/
+.custom-header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 545px;
+    overflow: hidden;
+    background: #ffddcc;
+}
+.post-template-default .custom-headings {
+    top: 30%;
+}
+.header-pattern {
+    background-color: rgba(34, 34, 34, 0);
+    height: 545px;
+}
+.page-title span.entry-title {
+    font-size: 4em;
+    font-weight: 300;
+    letter-spacing: 15px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: #222;
+}
+.page-subtitle {
+    color: #252525;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    top: 100%;
+}
+.entry-header span.entry-title {
+    font-size: 1.6em;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: #222;
+}
+.entry-header span.entry-title a:hover {
+    color: #009fff;
+}
+
+/*CONTENT STYLES*/
+.entry-content h1, 
+.entry-content h2, 
+.entry-content h3, 
+.entry-content h4, 
+.entry-content h5, 
+.entry-content h6, 
+.entry-summary h1, 
+.entry-summary h2, 
+.entry-summary h3, 
+.entry-summary h4, 
+.entry-summary h5, 
+.entry-summary h6, 
+.comment-content h1, 
+.comment-content h2, 
+.comment-content h3, 
+.comment-content h4, 
+.comment-content h5, 
+.comment-content h6, 
+.textwidget h1, 
+.textwidget h2, 
+.textwidget h3, 
+.textwidget h4, 
+.textwidget h5, 
+.textwidget h6 {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.entry-content h2 {
+    color: #009fff;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 17px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+/*BLOG STYLES*/
+.single-post article p:first-of-type {
+    color: #686868;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 2em;
+    margin:0 0 30px 0;
+}
+.single .byline, 
+.full-size-link {
+    display: block;
+    margin-bottom: 0.5384615385em;
+    font-size: .6em;
+    color: #222;
+}
+.single .author.vcard a {
+    color: #222;
+}
+.tag-title {
+    color: #009fff;
+    margin: 40px 0 20px;
+}
+.sidebar h4.widget-title,
+.widget .widget-title {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    font-weight: normal;
+    background: #ffddcc;
+    line-height: 50px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 100%;
+    font-size: 1em;
+    border:none;
+}
+.sidebar .widget ul li a {
+    color: #1a1a1a;
+}
+.sidebar .widget ul li a:hover {
+    color: #a0a0a0;
+}
+
+/*BUTTONS AND INPUTS - VISUAL COMPOSER INCLUDED*/
+.vc_btn3,
+.reply a, 
+button, 
+button[disabled]:hover, 
+button[disabled]:focus, 
+input[type="button"], 
+input[type="button"][disabled]:hover, 
+input[type="button"][disabled]:focus, 
+input[type="reset"], 
+input[type="reset"][disabled]:hover, 
+input[type="reset"][disabled]:focus, 
+input[type="submit"], 
+input[type="submit"][disabled]:hover, 
+input[type="submit"][disabled]:focus {
+    background: #009fff !important;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding:15px 12px !important;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.reply a:hover,
+input[type="button"]:hover, 
+input[type="submit"]:hover,
+.vc_btn3:hover{
+    background:#222 !important;
+}
+
+/*FOOTER STYLES*/
+.footer-global {
+    background:#eaeaea;
+    border-top: solid 2px #009fff;
+}
+.footer-widgets .widget-title {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: left;
+    font-weight: normal;
+    background: transparent;
+    line-height: 50px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 100%;
+    font-size: 1em;
+    border:none;
+}
+.copyright-info, 
+.copyright-info a {
+    color:#222;
+} 
+
+/*GRAVITY FORMS*/
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0 !important;
+}
+.gform_wrapper form {
+    text-align: center !important;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gform_wrapper .top_label .gfield_label,.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+    display:none!important;
+}
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    padding:15px 12px !important;
+    background:#fff !important;
+}
+.searchbar input[type="text"] {
+    background: #fff url(img/search.svg) 97% 59% no-repeat;
+}
+.gform_wrapper textarea, 
+.comment-form textarea {
+    background:#fff !important;
+}
+.gform_wrapper textarea:focus,
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus, 
+.comment-form textarea:focus,
+.searchbar input[type="text"]:focus {
+    border:solid 1px #222 !important;
+}
+.gform_wrapper .gform_footer input.button, 
+.gform_wrapper .gform_footer input[type=submit], 
+.gform_wrapper .gform_page_footer input.button, 
+.gform_wrapper .gform_page_footer input[type=submit] {
+    background: #009fff;
+    width:50% !important;
+    margin:0 auto !important;
+    text-align: center !important;
+    border:none !important;
+    color:white;
+    padding:15px 12px !important;
+    border-radius: 4px;
+}
+.gform_wrapper .gform_footer input.button:hover, 
+.gform_wrapper .gform_footer input[type=submit]:hover, 
+.gform_wrapper .gform_page_footer input.button:hover, 
+.gform_wrapper .gform_page_footer input[type=submit]:hover {
+    background:#222;
+    color:white;
+}
+
+/*VISUAL COMPOSER GRID CSS*/
+.grid-cat,
+.vc_gitem-post-category-name {
+    text-transform: uppercase;
+    text-align: center !important;
+    color: #009fff;
+    font-size: .9em;
+    letter-spacing: 2.5px;
+}
+
+/*RESPONSIVE*/
+
+/*Landcscape and tablet*/
+@media screen and (max-width: 48em) {
+    .custom-headings {
+        top: 50%;
+    }
+    .header-top img.custom-logo,
+    .header-top-dark img.custom-logo {
+        margin:0 auto;
+    }
+    .header-top .logo {
+        padding: 30px 0 20px;
+    }
+    .header-top-dark .main-navigation, 
+    .header-top .main-navigation {
+        padding: 45px;
+        background: #fff;
+    }
+}
+
+/*Large phone*/
+@media screen and (min-width: 44.375em) {
+    .entry-content blockquote:not(.alignleft):not(.alignright), 
+    .entry-summary blockquote, 
+    .comment-content blockquote {
+        margin-left: 0;
+        padding-left: 30px;
+    }
+}
+
+/*potrait phone*/
+@media screen and (max-width: 33em) {
+    .header-top .site-header-main,
+    .header-top-dark .site-header-main {
+        float: none;
+    }
+    .header-top img.custom-logo,
+    .header-top-dark img.custom-logo {
+        margin:0 auto;
+    }
+    h1.hero-content {
+        font-size: 2em;
+        font-weight: 300;
+        letter-spacing: 12px;
+        line-height: 1;
+        text-transform: uppercase;
+        padding-top: 30px;
+    }
+    h2.hero-content {
+        color: #252525;
+        font-size: 1em;
+        font-weight: 300;
+        letter-spacing: 5px;
+        line-height: 2.5;
+        text-transform: uppercase;
+    }
+    .entry-header span.entry-title {
+        font-size: 1em;
+        font-weight: 300;
+        letter-spacing: 15px;
+        line-height: 1.7;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        color: #222;
+    }
+}
+
+/*WOOCOMMERCE STYLES*/
 .woocommerce span.onsale {
     border-radius: 0;
 }
@@ -46,9 +475,8 @@
     text-align: center;
 }
 .woocommerce ul.products li.product .price ins {
-    color:#333;
+    color:#222;
 }
-
 .woocommerce #respond input#submit, 
 .woocommerce a.button, 
 .woocommerce button.button, 
@@ -107,4 +535,4 @@
 .woocommerce-message,
 .woocommerce-info {
     border-top-color: rgb(94, 167, 177)
-}*/
+}
