@@ -71,3 +71,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 = 1.3.2 =
 
 * Added CSS to reposition on scroll header logo and nav.
+
+= 1.6 = 
+
+* updated for guteberg and better UX
