@@ -30,7 +30,7 @@ Installation
 ==
 Copyright
 ==
-Molecule Child Theme, Copyright 2016 Jason Davis
+Molecule Child Theme, Copyright 2018 Jason Davis
 
 ==
 Molecule Child Theme is distributed under the terms of the GNU GPL
@@ -75,3 +75,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 = 1.6 = 
 
 * updated for guteberg and better UX
+
+= 1.6.1 = 
+
+* updated to remove custom post type files.
