@@ -79,3 +79,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 = 1.6.1 = 
 
 * updated to remove custom post type files.
+
+= 1.7 = 
+
+* revised demo design and used Elementor Page Builder.
