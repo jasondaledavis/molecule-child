@@ -83,3 +83,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 = 1.7 = 
 
 * revised demo design and used Elementor Page Builder.
+
+= 1.8 = 
+
+* Corrected style.css head Author URI and description.
