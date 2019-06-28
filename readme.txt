@@ -87,3 +87,7 @@ GNU General Public License for more details: http://www.gnu.org/licenses/gpl-2.0
 = 1.8 = 
 
 * Corrected style.css head Author URI and description.
+
+= 1.9 = 
+
+* Updated styles for WP 5.0+

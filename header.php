@@ -157,7 +157,7 @@
 
                 <div class="row">
                 
-                    <?php get_template_part( 'template-parts/custom', 'header' ); ?>               
+                    <?php get_template_part( 'template-parts/custom', 'header' ); ?>           
 
                 </div><!-- end .row -->
 

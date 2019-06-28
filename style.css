@@ -5,67 +5,125 @@
  Author:         Jason Davis
  Author URI:     https://iamjasondavis.com
  Template:       molecule
- Version:        1.8
+ Version:        1.9
 */
 
 /*
 
-THIS IS CUSTOM CSS FOR THE MOLECULE DEMO - 
+Colors:
 
-DELETE AND REPLACE WITH YOURS BELOW 
+#416441 - Green
+#c8e5ce - light green
+#CC0000 - red
+#333333 - Charcoal
+#999999 - Gray
 
 */
 
-.home .page-content {
-    padding-top:0;
+/*
+
+WIDGETIZED HEADER
+
+*/
+#molecule-topbar {}
+#molecule-topbar > ul > li {}
+.topbar-right {}
+.topbar-left {}
+.topbar-right .widget,
+.topbar-left .widget {}
+.topbar-right .widget ul,
+.topbar-left .widget ul {}
+
+/*
+
+HEADER
+
+*/
+.header-top .site-title,
+.header-top .site-title a {
+    text-align: left;
 }
-a.elementor-button:hover, .elementor-button:hover {
-    cursor: pointer;
+.header-top-dark .site-title,
+.header-top-dark .site-title a {
+    padding: 0 0 20px;
+    text-align: left;
 }
-p.akismet_comment_form_privacy_notice {
-    margin-top: 40px;
+.header-top .site-description {
+    text-align: left;
+    margin: 20px auto;
+    border-top:solid 2px #eaeaea;
+    padding-top: 10px;
+}
+.header-top {}
+.header-top .logo {}
+.header-top img.custom-logo {}
+
+/*
+when page is scrolled down
+*/
+.header-top-dark {}
+.header-top-dark .logo {}
+.header-top-dark img.custom-logo {}
+
+/*
+
+INTERIOR PAGE HEADERS
+
+*/
+.custom-header {}
+.header-pattern {}
+.custom-headings {}
+.custom-headings-inner {}
+.page-title, span.entry-title {}
+.page-subtitle {}
+
+/*
+
+TYPOGRAPHY
+
+*/
+body {}
+h1, h2, h3, h4, h5, h6 {}
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-summary h1, .entry-summary h2, .entry-summary h3, .entry-summary h4, .entry-summary h5, .entry-summary h6, .comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6, .textwidget h1, .textwidget h2, .textwidget h3, .textwidget h4, .textwidget h5, .textwidget h6 {}
+
+/*
+
+PAGE CONTENT
+
+*/
+.page-content {
+    max-width: 900px !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    word-wrap: break-word;
 }
 
-.header-top .logo {
-    padding: 10px 0;
-}
-.header-top-dark .logo {
-    padding: 10px 0 0;
-}
+/*
+
+NAVIGATION
+
+*/
 .site-header-main {
     float: right;
 }
-.header-pattern {
-    background:transparent;
-}
-.page-title, span.entry-title {
-    color:white;
-}
-.post-index {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-}
-.footer-logo {
-   -webkit-filter: brightness(0) invert(1);
-    filter: brightness(0) invert(1);
-    opacity: 1;
-}
-.copyright-info, .copyright-info a {
-    color:white;
-}
-.custom-header,
-.footer-global {
-    background-color: #2642D3;
-    background-image: linear-gradient(140deg, #ebb0e7 0%, #2642D3 100%);
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    -moz-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-}
+.main-navigation a {}
+.main-navigation a::before {}
+
+/*
+
+FOOTER
+
+*/
+.footer-global {}
+.footer-credits {}
+.footer-logo {}
+.copyright-info {}
 
 /* 
 
  MEDIA QUERIES
+ On Mobile Devices a .mobile class is injected by js in the header-top
 
 */
 
@@ -84,23 +142,6 @@ and (orientation : landscape) {
     .site-header-main {
         float: right;
     }
-    .site-header-menu {
-        display: none;
-    }
-    .main-navigation .primary-menu {
-        border-bottom: none;
-    }
-    .site-header-menu.toggled-on {
-        border: solid 1px #ebb0e7;
-        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
-        -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
-        -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        -moz-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        border-radius: 5px;
-        padding: 0 30px;
-    }
 
 }
 
@@ -117,17 +158,6 @@ and (orientation : landscape) {
     }
     .main-navigation .primary-menu {
         border-bottom: none;
-    }
-    .site-header-menu.toggled-on {
-        border: solid 1px #ebb0e7;
-        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
-        -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
-        -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        -moz-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        border-radius: 5px;
-        padding: 0 30px;
     }
 
 }
@@ -147,7 +177,7 @@ and (orientation : landscape) {
         border-bottom: none;
     }
     .site-header-menu.toggled-on {
-        border: solid 1px #ebb0e7;
+        border: solid 1px #eaeaea;
         box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
         -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
         -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
