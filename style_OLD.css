@@ -1,0 +1,1550 @@
+/*
+ Theme Name:     Molecule Child Theme
+ Theme URI:      https://nerdbrandagency.com
+ Description:    Child theme of nerdbrandagency.com
+ Author:         Jason Davis
+ Author URI:     https://nerdbrandagency.com
+ Template:       molecule
+ Version:        2.3
+*/
+
+/* CSS from WPB */
+
+/*Home page*/
+.aligncenter.wp-image-32145  {
+     filter: grayscale(100%);
+}
+/*About page*/
+.caption-about .wpb_single_image .vc_figure-caption {
+    margin-top: 1.2em;
+    font-size: .9em;
+    background: #ff5100;
+    padding: 20px;
+    color: white;
+    margin-top: 0;
+    box-shadow: 0px 15px 20px rgba(33,35,34, 0.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+    -moz-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+}
+.bounce-top {
+    -webkit-animation: bounce-top 3s ease-in-out 0.9s infinite both;
+            animation: bounce-top 3s ease-in-out 0.9s infinite both;
+}
+@-webkit-keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-md {
+    background: #ff5100 !important;
+    text-transform:none !important;
+    font-size: 18px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 15px 20px rgba(33,35,34, 0.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+    -moz-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+}
+.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-md:hover {
+    background:#212322 !important;
+}
+
+.vc_btn3.vc_btn3-color-white.vc_btn3-style-modern:hover {
+    background-image:none;
+    border:solid 2px #ff5100;
+    color: #ffffff;
+    background-color: #ff5100;
+    border-radius: 0;
+    box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+    -moz-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+    transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+    -moz-transform: translateY(-7px);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+/*Portfolio Page*/
+.vc_gitem-zone,
+.wpb_single_image .vc_single_image-wrapper.vc_box_rounded img {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1) !important;
+    border-radius:16px !important;
+}
+.gallery {
+    text-align: center;
+}
+@media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation: portrait) {
+    .mobile-padding {
+        padding:40px 15px;
+    }
+    h2, .entry-content h2, .entry-summary h2, .comment-content h2 {
+    font-size: 2em;
+    line-height: 1.2em;
+    font-family: 'ralewayregular','Arial',sans-serif;
+    font-weight: inherit;
+}
+}
+@media only screen and (min-width: 641px) {
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    width: 100% !important;
+    margin: 0 16px 0 0;
+}
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0;
+}
+}
+/*Contact page*/
+.vc_gitem-zone,
+.wpb_single_image .vc_single_image-wrapper.vc_box_rounded img {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1) !important;
+    border-radius:16px !important;
+}
+@media only screen and (min-width: 641px) {
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    width: 100% !important;
+    margin: 0 16px 0 0;
+}
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0;
+}
+}
+/*web design page*/
+.indy-svg {
+    opacity: .3;
+}
+.vc_general.vc_cta3 h2 {
+    margin-top: 26px !important;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 26px !important;
+}
+/*E-commerce Page*/
+.gform_wrapper .gform_page_footer .button.gform_button, 
+.gform_wrapper .gform_page_footer .button.gform_next_button {
+    background:#212322 !important;
+    color:white !important;
+    border:none !important;
+}
+.gform_wrapper .gform_page_footer .button.gform_button:hover, 
+.gform_wrapper .gform_page_footer .button.gform_next_button:hover {
+    border:none !important;
+}
+.gform_wrapper .gform_page_footer {
+    text-align:center;
+}
+.gform_wrapper .gf_progressbar_percentage span {
+    line-height: 1.5 !important;
+}
+/*Podcast Page*/
+.vc_gitem-zone,
+.wpb_single_image .vc_single_image-wrapper.vc_box_rounded img {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1) !important;
+    border-radius:16px !important;
+}
+.gallery {
+    text-align: center;
+}
+.vc_btn3.vc_btn3-size-md.vc_btn3-style-outline-custom {
+   padding: 14px 20px !important;
+   border:solid 1px #ff5100 !important;
+   font-family: 'ralewayregular', 'Arial', sans-serif !important;
+   font-weight: inherit !important;
+   border-radius: 0 !important;
+   text-transform: lowercase !important;
+   font-size: 18px !important;
+   color: #ff5100!important;
+   background-color: transparent!important;
+}
+.vc_btn3.vc_btn3-size-md.vc_btn3-style-outline-custom:hover {
+   padding: 14px 20px !important;
+   border:solid 1px #212322 !important;
+   font-family: 'ralewayregular', 'Arial', sans-serif !important;
+   font-weight: inherit !important;
+   border-radius: 0 !important;
+   text-transform: lowercase !important;
+   font-size: 18px !important;
+   background-color: #212322 !important;
+   color: #ffffff !important;
+}
+.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-md {
+    font-size: 18px!important;
+    padding: 14px 20px !important;
+}
+@media only screen and (min-width: 641px) {
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    width: 100% !important;
+    margin: 0 16px 0 0;
+}
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0;
+}
+}
+/*Marketing PAge*/
+.vc_general.vc_cta3 h2 {
+    margin-top: 26px !important;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 26px !important;
+}
+/*seo page*/
+.vc_general.vc_cta3 h2 {
+    margin-top: 26px !important;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 26px !important;
+}
+.gform_wrapper .gform_page_footer .button.gform_button, 
+.gform_wrapper .gform_page_footer .button.gform_next_button {
+    background:#212322 !important;
+    color:white !important;
+    border:none !important;
+}
+.gform_wrapper .gform_page_footer .button.gform_button:hover, 
+.gform_wrapper .gform_page_footer .button.gform_next_button:hover {
+    border:none !important;
+}
+.gform_wrapper .gform_page_footer {
+    text-align:center;
+}
+.gform_wrapper .gf_progressbar_percentage span {
+    line-height: 1.5 !important;
+}
+/*Video page*/
+h2.woocommerce-loop-product__title {
+    font-size:24px;
+}
+span.woocommerce-Price-amount.amount,
+span.subscription-details {
+    color:#212322 !important;
+    font-family: 'ralewaybold', 'Arial', sans-serif;
+    font-weight: inherit;
+    font-size:1.1em;
+}
+li.product, .woocommerce.columns-3 ul.products li.product {
+    background: #fff;
+}
+.woocommerce.columns-3 ul.products li.product:nth-child(1) {
+    border: solid 2px #eaeaea;
+    padding-bottom: 40px !important;
+}
+.woocommerce.columns-3 ul.products li.product:nth-child(2) {
+    border: solid 1px #ff5100;
+    padding-bottom: 40px !important;
+}
+.woocommerce.columns-3 ul.products li.product:nth-child(3) {
+    border: solid 1px #eaeaea;
+    padding-bottom: 40px !important;
+}
+/*FAQs toggles*/
+.vc_toggle.vc_toggle_simple {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius:6px;
+    padding: 20px 0 6px 20px !important;
+}
+.vc_toggle.vc_toggle_simple h2 {
+    color: #212322;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    font-family: 'ralewayregular','Arial',sans-serif;
+    font-weight: inherit;
+}
+.vc_toggle.vc_toggle_simple.vc_toggle_active h2 {
+    color: #ff5100;
+}
+
+
+/*Customizer CSS*/
+
+/* = Gravity Form blue bg = */
+
+.blueform {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e73be;
+    color: #fff;
+}
+
+#gform_wrapper_42 {
+    background: #efefef;
+    border: 2px solid #eee;
+    border-radius: 28px;
+    padding: 25px 20px;
+}
+
+/* TY page upsell CTA Buttons */
+.vc_btn3-container.nb-button a.vc_general.vc_btn3 {
+    background-image: none;
+    border: none;
+    color: #ffffff;
+    background-color: #212322 !important;
+    font-family: 'ralewayregular', 'Arial', sans-serif;
+    font-weight: inherit;
+    border-radius: 0;
+    text-transform: lowercase;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.vc_btn3-container.nb-button a.vc_general.vc_btn3:hover {
+    background-color: #ff5100 !important;
+    box-shadow: 0px 15px 20px rgba(33,35,34, 0.4);
+    -webkit-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+    -moz-box-shadow: 0px 15px 20px rgba(33,35,34,.4);
+    color: #fff;
+    transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+    -moz-transform: translateY(-7px);
+}
+.wp-block-yoast-seo-table-of-contents.yoast-table-of-contents > ul > li > ul > li {
+    padding-top:10px;
+}
+.wp-block-separator {
+    border-bottom: 1px solid #ff5100;}
+.single-post hr {
+    background-color:transparent !important;}
+.author-info {
+    margin:3em 0 3.5em;
+}
+ .archive.author span.entry-title a {
+   color:#212322;
+}
+.archive.author span.entry-title a:hover {
+   color:#ff5100;
+}
+.archive.author .page-content {
+    max-width: 900px !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    word-wrap: break-word;
+}
+.archive.author .custom-headings .page-title,.archive.author .custom-headings span.entry-title {
+    text-align: center;
+}
+
+.gform_wrapper .gfield_required {
+    display:none;
+}
+
+.category article {
+    width:100%;
+    max-width:900px;
+    margin:0 auto;
+}
+.vc_wp_custommenu.wpb_content_element 
+.widget.widget_nav_menu a {
+    font-family: 'ralewayregular','Arial',sans-serif;
+    font-weight: inherit;
+    color: white;
+    font-size: 22px;
+    line-height: 1.9em;
+    text-align: left;
+    background: #ff5100;
+    padding: 12px;
+    /* list-style: none; */
+}
+
+@font-face {
+     font-family: 'raleway_blackregular';
+     src: url('fonts/raleway-black-webfont.woff2') format('woff2'),url('fonts/raleway-black-webfont.woff') format('woff');
+     font-style: normal;
+}
+ @font-face {
+     font-family: 'ralewaybold';
+     src: url('fonts/raleway-bold-webfont.woff2') format('woff2'),url('fonts/raleway-bold-webfont.woff') format('woff');
+     font-style: normal;
+}
+ @font-face {
+     font-family: 'raleway_mediumregular';
+     src: url('fonts/raleway-medium-webfont.woff2') format('woff2'),url('fonts/raleway-medium-webfont.woff') format('woff');
+     font-style: normal;
+}
+ @font-face {
+     font-family: 'ralewayregular';
+     src: url('fonts/raleway-regular-webfont.woff2') format('woff2'),url('fonts/raleway-regular-webfont.woff') format('woff');
+     font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayitalic';
+    src: url('fonts/raleway-italic-webfont.woff2') format('woff2'),
+         url('fonts/raleway-italic-webfont.woff') format('woff');
+    font-style: normal;
+}
+
+/***************** Basic Styles ****************/
+ body {
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size:1.2em;
+     line-height:2em;
+     color:#212322;
+}
+.page-content a, .page-content a:visited
+.entry-content a, .entry-content a:visited {
+     color: #212322;
+     padding-bottom: 2px;
+     border-bottom: none;
+     font-family: 'ralewaybold', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+.entry-content .gutebutton a, .entry-content .gutebutton a:visited {
+     padding-bottom: 12px;
+} 
+.page-content a:hover,
+.entry-content a:hover {
+     color: #ff5100;
+}
+ .entry-content p strong {
+     font-family: 'ralewaybold', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+.entry-content p em {
+     color: #ff5100;
+     font-family: 'ralewayitalic', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ figcaption {
+     color: #ff5100;
+     font-style: italic;
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ .entry-content ul li, .entry-content ul li a {
+     color: #ff5100;
+     list-style-type:circle;
+     font-family: 'ralewayregular', 'Arial', sans-serif !important;
+     font-weight: inherit !important;
+     line-height: 24px;
+     padding-bottom: 16px;
+}
+ h1,.entry-content h1,.entry-summary h1,.comment-content h1,.textwidget h1 {
+     color:#212322;
+     font-size:3em;
+     line-height:1.2em;
+     font-family: 'raleway_blackregular', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ h2, .entry-content h2, .entry-summary h2, .comment-content h2 {
+     font-size: 2.3em;
+     line-height: 1.2em;
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+}
+ h3,.entry-content h3,.entry-summary h3,.comment-content h3,.textwidget h3 {
+     font-size:1.2em;
+     line-height:1.5em;
+     font-family: 'ralewaybold', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ h4, h5, h6, .entry-content h4, .entry-content h5, .entry-content h6, .entry-summary h4, .entry-summary h5, .entry-summary h6, .comment-content h4, .comment-content h5, .comment-content h6, .textwidget h4, .textwidget h5, .textwidget h6 {
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ input[type="button"],input[type="reset"],input[type="submit"] {
+     background-color: #212322;
+     border-radius: 0;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     padding: 20px !important;
+     border: none;
+     color: #ffffff;
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     text-transform: none;
+     font-size: 16px;
+     letter-spacing: 1px;
+     line-height: 1;
+     -webkit-transition: all .3s ease-in-out 0s;
+     -moz-transition: all .3s ease-in-out 0s;
+     -o-transition: all .3s ease-in-out 0s;
+     transition: all .3s ease-in-out 0s;
+}
+/***************** Header Styles ****************/
+.header-top img.custom-logo, .header-top-dark img.custom-logo {
+    text-align: left;
+    margin: 0;
+}
+.header-top .logo, .header-top-dark .logo {
+    padding: 10px 0;
+}
+.header-top, .header-top-dark {
+  background:#ffffff;
+  border-bottom: solid 1px #ff5100;
+}
+.header-top .main-navigation {
+    padding: 24px 0;
+}
+.header-top-dark .main-navigation {
+    padding: 15px 0;
+}
+.site-header-main {
+  float: right;
+}
+.custom-header {
+  border-bottom: solid 1px #eaeaea;
+}
+.header-pattern {
+   background-color: #ffffff;
+   background-image: url(img/comic-dot-pattern-01.svg);
+   background-attachment: fixed;
+   background-size: cover;
+}
+.custom-headings {
+   left: 51%;
+}
+.custom-headings .page-title,.custom-headings span.entry-title {
+     font-family: 'raleway_blackregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size:2em;
+     line-height:1.4em;
+     color: #212322;
+     text-align: left;
+     display: block;
+     margin-bottom: 0.5em;
+}
+.page-subtitle {
+     position: absolute;
+     padding: 0;
+     top: 100%;
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size: 1em;
+     line-height: 1.5em;
+     color: #212322;
+     left: 25%;
+     -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     text-align: left;
+     text-transform: none;
+     width: 50%;
+}
+/***************** Main Navigation ****************/
+#menu-toggle {
+    display: none !important;
+}
+.main-navigation a {
+  font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size: 18px;
+     color: #212322;
+}
+.main-navigation a:hover {
+  color: #ff5100 !important;
+}
+.main-navigation a::before {
+    background:none;
+}
+.main-navigation li.cta a {
+  border:solid 1px #ff5100;
+}
+/***************** 2020 homepage ****************/
+.hero-heading h1 {
+    color: #212322;
+    font-size: 3.3em;
+    line-height: 1.2em;
+    font-family: 'raleway_blackregular', 'Arial', sans-serif;
+    font-weight: inherit;
+}
+.home .entry-content h2 {
+    font-size: 3em;
+    line-height: 1.2em;
+    font-family: 'ralewayregular','Arial',sans-serif;
+    font-weight: inherit;
+}
+div.pushup {
+     font-family: 'raleway_mediumregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size: 4em;
+     line-height: 1em;
+}
+.process-row h3 {
+        padding-top: 12px;
+    }
+ /*in between why, how, what*/
+ h3.service-heading {
+     font-size: 2.5em;
+     font-family: 'ralewaybold', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ .col-border {
+     padding-left:3em;
+     border-right: solid 2px #212322;
+}
+ .accented {
+     background: url(img/comic-dot-accent-row.svg) no-repeat top right;
+}
+/***************** PAGE CONTENT ****************/
+ .page-content {
+    max-width: 1200px !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    word-wrap: break-word;
+}
+ .entry-content .wp-block-button__link:hover {
+     background-color: #ff5100;
+}
+ .entry-content .wp-block-button__link {
+     color: inherit !important;
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ .bounce-top {
+     -webkit-animation: bounce-top 4s cubic-bezier(0.860, 0.000, 0.070, 1.000) infinite both;
+     animation: bounce-top 4s cubic-bezier(0.860, 0.000, 0.070, 1.000) infinite both;
+}
+ @-webkit-keyframes bounce-top {
+     0% {
+         -webkit-transform: translateY(-45px);
+         transform: translateY(-45px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+         opacity: 1;
+    }
+     24% {
+         opacity: 1;
+    }
+     40% {
+         -webkit-transform: translateY(-24px);
+         transform: translateY(-24px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     65% {
+         -webkit-transform: translateY(-12px);
+         transform: translateY(-12px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     82% {
+         -webkit-transform: translateY(-6px);
+         transform: translateY(-6px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     93% {
+         -webkit-transform: translateY(-4px);
+         transform: translateY(-4px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     25%, 55%, 75%, 87% {
+         -webkit-transform: translateY(0px);
+         transform: translateY(0px);
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+    }
+     100% {
+         -webkit-transform: translateY(0px);
+         transform: translateY(0px);
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+         opacity: 1;
+    }
+}
+ @keyframes bounce-top {
+     0% {
+         -webkit-transform: translateY(-45px);
+         transform: translateY(-45px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+         opacity: 1;
+    }
+     24% {
+         opacity: 1;
+    }
+     40% {
+         -webkit-transform: translateY(-24px);
+         transform: translateY(-24px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     65% {
+         -webkit-transform: translateY(-12px);
+         transform: translateY(-12px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     82% {
+         -webkit-transform: translateY(-6px);
+         transform: translateY(-6px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     93% {
+         -webkit-transform: translateY(-4px);
+         transform: translateY(-4px);
+         -webkit-animation-timing-function: ease-in;
+         animation-timing-function: ease-in;
+    }
+     25%, 55%, 75%, 87% {
+         -webkit-transform: translateY(0px);
+         transform: translateY(0px);
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+    }
+     100% {
+         -webkit-transform: translateY(0px);
+         transform: translateY(0px);
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+         opacity: 1;
+    }
+}
+/**************** * BLOGS, POSTS ****************/
+ #breadcrumbs>span {
+     background-color: #fff !important;
+     padding: 0 0 18px;
+     border: none;
+     font-family: 'ralewayregular','Arial',sans-serif !important;
+     font-weight: inherit !important;
+}
+ .blog #breadcrumbs {
+     display:none;
+}
+ .blocks-gallery-caption, .wp-block-embed figcaption, .wp-block-image figcaption {
+     color: #212322;
+     font-size: 17px;
+     text-align: center;
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ .center-block-btn {
+     margin:0 auto;
+     text-align:center;
+}
+ .page-title a, span.entry-title a {
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+}
+ .post-index {
+     margin: 0 auto;
+     max-width: 960px;
+     width: 100%;
+}
+ .pagination {
+     border-top: none !important;
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+}
+ .pagination .nav-links:before {
+     right: 0px !important;
+     top: 6px;
+}
+ .pagination .nav-links:after {
+     top: 6px;
+}
+ .single-post .wp-block-embed-spotify {
+     margin-bottom: 1em;
+     max-height: 300px;
+}
+ .no-sidebar .post-thumbnail img {
+     border-radius:6px;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     border-radius: 12px;
+     -webkit-transition: all .3s ease-in-out 0s;
+     -moz-transition: all .3s ease-in-out 0s;
+     -o-transition: all .3s ease-in-out 0s;
+     transition: all .3s ease-in-out 0s;
+     margin: 0 auto 80px;
+}
+ header > h2 {
+     margin-top:0;
+}
+.archive.category .page-title a,.archive.category span.entry-title a, .blog .page-title a,.blog span.entry-title a,.single .author.vcard a {
+     color: #212322;
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+}
+.blog .page-title a:hover,.blog span.entry-title a:hover {
+     color: #ff5100;
+}
+.single .byline, .full-size-link {
+     margin: 0;
+}
+.single-ty .vc_custom_heading, 
+.single-post .custom-headings .page-title,.single-post .custom-headings span.entry-title {
+     font-family: 'raleway_blackregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size:1.2em;
+     line-height:1em;
+     color: #212322;
+     text-align: left;
+}
+.single-ty .vc_custom_heading {
+	margin-top: 80px;
+	font-size: 1.5em;
+}
+.single-post article {
+     margin:0 auto;
+     width: 100%;
+     max-width: 960px;
+}
+.author article, .archive article,.blog .post-index article {
+     border-bottom: dotted 1px #ff5100;
+     padding: 40px 0;
+}
+.single-ty p:first-of-type,
+.single-post article p:first-of-type {
+     color: #ff5100;
+     letter-spacing: 2px;
+     line-height: 2em;
+     margin: 0 0 30px 0;
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+}
+.entry-content blockquote.wp-block-quote:not(cite) {
+    color: #676767 !important;
+    font-size: 1.4em !important;
+    font-style: italic;
+    line-height: 1.8em !important;
+    margin: 1.4em;
+    overflow: hidden;
+    padding: 1.2em;
+    border-left: solid 2px #676767;
+    background: #f8f8f8;
+    font-family: 'Montserrat', 'Open Sans', 'Arial', sans-serif;
+    font-weight: lighter;
+}
+.entry-content blockquote.wp-block-quote cite {
+    color: #676767 !important;
+    font-size: 1.1em !important;
+    font-style: italic;
+    line-height: 1.6em !important;
+    font-family: 'Montserrat', 'Open Sans', 'Arial', sans-serif;
+    font-weight: lighter;
+	border-left: none;
+	padding: 0;
+	margin: 0;
+}
+/*custom related posts styles*/
+ #jp-relatedposts h3.jp-relatedposts-headline em {
+     font-family: 'ralewayregular','Arial',sans-serif !important;
+     font-weight: normal !important;
+     font-size:1.7em;
+}
+ #jp-relatedposts h3.jp-relatedposts-headline {
+     margin: 0 0 2.5em 0;
+}
+ #jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+     padding-top: 30px;
+     font-family: 'ralewayregular','Arial',sans-serif !important;
+     font-weight: normal !important;
+}
+ #jp-relatedposts .jp-relatedposts-items p, #jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+     font-family: 'ralewayregular','Arial',sans-serif !important;
+     font-weight: normal !important;
+     font-size: 18px!important;
+     line-height: 26px!important;
+}
+ .related-posts ul {
+     list-style-type: none;
+}
+ .related-posts li::before {
+     content: "\f429";
+     font-family: "Genericons";
+     color: #ff5100 !important;
+     padding-right: 8px;
+}
+ .related-posts li a {
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+     padding: 40px 0;
+     color: #212322;
+}
+ .post-navigation .post-title,.comments-title,.comment-reply-title,.entry-footer {
+     font-family: 'ralewaybold', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ .comments-title,.comment-reply-title {
+     border-top: 4px solid #ff5100;
+}
+ .single-post #submit:hover {
+     background: #ff5100;
+}
+ .post-navigation {
+     border-top: 2px solid #ff5100;
+     border-bottom: 2px solid #ff5100;
+}
+ .author-bio, .author-bio a {
+     color: #212322;
+     line-height: 33px;
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+}
+ .author-info {
+     border-top: none;
+     border-bottom: none;
+     padding: 25px;
+     background: #f9f9f9;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     border-radius: 12px;
+     transition: all .3s ease-in-out 0s;
+     -webkit-transition: all .3s ease-in-out 0s;
+     -moz-transition: all .3s ease-in-out 0s;
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ p.akismet_comment_form_privacy_notice {
+     margin-top:40px;
+}
+ #dpsp-content-bottom {
+     margin-bottom: 2em;
+}
+/********** Custom Post Types Styles *********/
+.projects-template-default .page-title,.projects-template-default span.entry-title {
+     font-family: 'raleway_blackregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size:2em;
+     line-height:1.4em;
+     color: #212322;
+     text-align: left;
+     display: block;
+     margin-bottom: 0.5em;
+}
+.single-projects p:first-child,
+.single-ty p:first-child,
+.single-lander p:first-child {
+  font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ .lander-template-default p a:visited, .lander-template-default p a {
+     color:#232122;
+}
+ .single-projects .page-subtitle, .single-projects .author-info, .single-projects .post-tags, .ty-template-default .page-subtitle, .single-lander .page-subtitle {
+     display:none !important;
+}
+ .single-lander .copyright-info, .single-lander .copyright-info a {
+     font-size: 24px;
+     text-transform: none;
+}
+ .single-post .wp-block-embed {
+     margin-bottom: 3em;
+}
+
+
+/********* * FOOTER *********/
+ .footer-global {
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     background:#212322;
+     border:none;
+}
+ .footer-global .row {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .footer-widgets {
+     border:none;
+     font-family: 'ralewaybold','Arial',sans-serif;
+     font-weight: inherit;
+     background: #212322;
+     padding:60px 0 20px;
+}
+.footer-widgets .widget {
+    padding:0;
+}
+ .footer-widgets h4.widget-title {
+     font-family: 'ralewaybold','Arial',sans-serif;
+     font-weight: inherit;
+     font-size:1.2em;
+}
+ .footer-widgets ul {
+     margin:0;
+     text-align:left;
+}
+ .footer-widgets li {
+     margin-bottom:20px;
+     list-style:none;
+     text-align:left;
+}
+ .footer-widgets p, .footer-widgets a {
+     font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+     color:white;
+     font-size:1em;
+     line-height: 1.4em;
+     text-align:left;
+}
+.widget.widget_nav_menu a {
+    font-family: 'ralewayregular','Arial',sans-serif;
+     font-weight: inherit;
+     color:white;
+     font-size:1.4em;
+     line-height: 1.9em;
+     text-align:left;
+}
+ .footer-widgets a:hover {
+     color:#aaa !important;
+}
+ .footer-widgets li::before {
+     content: "\f429";
+     font-family: "Genericons";
+     color: #ff5100 !important;
+     padding-right: 8px;
+}
+ .footer-widgets .social-icons li::before {
+     display:none;
+}
+ .footer-logo {
+     display:none;
+}
+ .copyright-info {
+     color: rgb(160, 160, 160);
+}
+.hello {
+    padding-bottom:20px;
+}
+div.phone span,
+.hello a {
+    color:#fff;
+     font-size: 1.4em;
+     line-height: 2.6em;
+     font-family: 'ralewaybold', 'Arial', sans-serif;
+     font-weight: inherit;
+}
+ .social-icons {
+     position: relative;
+     margin: 0 auto;
+     text-align: center;
+}
+ .social-icons ul {
+     list-style: none;
+     margin: 0;
+}
+ .social-icons li {
+     display: inline-block;
+     padding: 0 10px 0;
+     -webkit-transition: all .3s ease-in-out 0s;
+     -moz-transition: all .3s ease-in-out 0s;
+     -o-transition: all .3s ease-in-out 0s;
+     transition: all .3s ease-in-out 0s;
+}
+ .social-icons li a span {
+     font-size: 1.8em;
+     color: white;
+     padding-right: 20px;
+     -webkit-transition: all .3s ease-in-out 0s;
+     -moz-transition: all .3s ease-in-out 0s;
+     -o-transition: all .3s ease-in-out 0s;
+     transition: all .3s ease-in-out 0s;
+}
+ .social-icons li a span:hover {
+     color: #ff5100;
+}
+/******************************** * PLUG-INs, BUTTONS, AND INPUTS ********************************/
+/*Forms*/
+.gform_wrapper .gform_footer input.button:hover, 
+.gform_wrapper .gform_footer input[type=submit]:hover, 
+.gform_wrapper .gform_page_footer input.button:hover, 
+.gform_wrapper .gform_page_footer input[type=submit]:hover {
+   color: #ffffff !important;
+   background-color: #ff5100 !important;
+    box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+    -webkit-box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+    -moz-box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+   transform: translateY(-7px);
+   -webkit-transform: translateY(-7px);
+   -moz-transform: translateY(-7px);
+}
+.gform_body input[type="text"],.gform_body input[type="email"],.gform_body input[type="url"],.gform_body textarea,.gform_body input,.gform_body textarea {
+     font-family: 'ralewayregular', 'Arial', sans-serif !important;
+     font-weight: inherit !important;
+     border: none !important;
+     background: #ffffff !important;
+     border-bottom: 2px solid #212322 !important;
+     border-top: none !important;
+     border-right: none !important;
+     border-left: none !important;
+     border-radius: 0 !important;
+     color: #212322 !important;
+}
+ .gform_body input[type="text"]:focus,.gform_body input[type="email"]:focus,.gform_body input[type="url"]:focus,.gform_body textarea:focus,.gform_body input:focus,.gform_body textarea:focus {
+     background: #f9f9f9 !important;
+     border-bottom: 2px solid #ff5100 !important;
+     font-family: 'ralewayregular','Arial',sans-serif !important;
+     font-weight: inherit !important;
+}
+
+/*  #nf-form-33-cont .nf-form-fields-required {
+     text-align:center;
+     color: #f8f8f8;
+}
+ #nf-field-245 {
+    width:100%;
+}
+ .nf-form-content input[type=button] {
+     border:none !important;
+     color: #ffffff !important;
+     background-color: #212322 !important;
+     font-family: 'ralewayregular', 'Arial', sans-serif !important;
+     font-weight: inherit !important;
+     border-radius: 0 !important;
+     text-transform: lowercase !important;
+     padding: 12px 20px !important;
+}
+
+ .nf-form-content input[type=button]:hover {
+     color: #ffffff !important;
+     background-color: #ff5100 !important;
+}
+ .list-radio-wrap .nf-field-element li label {
+     cursor: pointer;
+}
+ .nf-checked-label {
+     font-weight:bold;
+}
+ .listradio-wrap .nf-field-element label.nf-checked-label:after {
+     border-color: #ff5100 !important;
+}
+ .listradio-wrap .nf-field-element label.nf-checked-label:before {
+     background: #ff5100 !important;
+}
+ .listradio-wrap .nf-field-element label.nf-checked-label:before {
+     height: 15px;
+     width: 15px;
+     left: -29px;
+     top: .05em;
+}
+ .nf-field-element input[type=radio]+label:before {
+     display: none;
+} */
+/*checkboxes*/
+/*  .listcheckbox-wrap .nf-field-element label.nf-checked-label:after {
+     border-color: #ff5100 !important;
+}
+ .listcheckbox-wrap .nf-field-element label.nf-checked-label:before {
+     background: none !important;
+     border: none;
+     box-shadow: none;
+}
+ .listcheckbox-wrap .nf-field-element label.nf-checked-label:before {
+     height: 15px;
+     width: 15px;
+     left: -29px;
+     top: .05em;
+} */
+/*multi-select*/
+/*  .nf-form-content select.ninja-forms-field:focus {
+     background: #f9f9f9;
+     border-bottom: solid 1px #ff5100 !important;
+     box-shadow: none;
+     outline: none;
+}
+ .nf-form-content select:-internal-list-box option:checked {
+     background-color: #eaeaea !important;
+     color: #232122 !important;
+} */
+
+/* Mailchimp forms */
+ #mc_embed_signup input.email {
+     font-family: 'raleway_mediumregular','Arial',sans-serif !important;
+     font-weight: inherit !important;
+     border-bottom: 1px solid #212322 !important;
+     border-radius: 0 !important;
+     color: #212322 !important;
+     background-color: #f9f9f9 !important;
+     box-sizing: border-box;
+     height: 50px !important;
+     padding: 0px 0.4em;
+     display: inline-block;
+     margin: 0;
+     width: 350px !important;
+     vertical-align: top;
+     font-size: 16px !important;
+}
+ #mc_embed_signup .button {
+     border: none !important;
+     color: #fff !important;
+     background-color: #212322 !important;
+     font-family: 'ralewayregular','Arial',sans-serif !important;
+     font-weight: inherit !important;
+     border-radius: 0 !important;
+     text-transform: lowercase !important;
+     padding: 12px 20px !important;
+     font-size: 16px !important;
+     letter-spacing: 1px !important;
+     height: 50px !important;
+}
+ #mc_embed_signup .button:hover {
+     color: #fff !important;
+     background-color: #ff5100 !important;
+}
+
+/*JetPack*/
+/* Added by Jason 9-29*/
+#jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
+    -moz-opacity: 1 !important;
+    opacity: 1 !important;
+}
+#jp-relatedposts h3.jp-relatedposts-headline em {
+    font-family: 'ralewayitalic','Arial',sans-serif !important;
+   font-weight: normal !important;
+    font-size:1.7em;
+}
+#jp-relatedposts h3.jp-relatedposts-headline {
+    margin: 0 0 2.5em 0;
+    font-family: 'ralewayregular','Arial',sans-serif !important;
+   font-weight: normal !important;
+}
+#jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+    padding-top: 30px;
+    font-family: 'ralewayregular','Arial',sans-serif !important;
+   font-weight: normal !important;
+}
+#jp-relatedposts .jp-relatedposts-items p, #jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+    font-family: 'ralewayregular','Arial',sans-serif !important;
+   font-weight: normal !important;
+    font-size: 18px!important;
+    line-height: 26px!important;
+}
+/*WP Bakery*/
+ .service-box .vc_column-inner, .service-box-warm .vc_column-inner  {
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     padding:60px 20px 20px !important;
+     border-radius: 10px !important;
+     background:#f9f9f9 !important;
+}
+
+/*CTA with just Icon and heading*/
+ .heading-icon h2 {
+     margin:14px 0 !important;
+}
+ .custom-row .vc_column_container>.vc_column-inner {
+     box-sizing: border-box;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+ a.readmore-btn {
+     color: #ffffff !important;
+     background-color: #212322;
+     border-radius: 0;
+     text-transform: lowercase;
+     font-family: 'ralewayregular', 'Arial', sans-serif;
+     font-weight: inherit;
+     font-size: 18px;
+     padding: 14px 20px;
+     border:none;
+}
+ a.readmore-btn:hover {
+     color: #ffffff !important;
+     background-color: #ff5100 !important;
+     box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+     -webkit-box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+     -moz-box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+     transform: translateY(-7px);
+     -webkit-transform: translateY(-7px);
+     -moz-transform: translateY(-7px);
+     border:none;
+}
+ .border-btn a {
+     padding: 14px 20px !important;
+     border:solid 1px white !important;
+     font-family: 'ralewayregular', 'Arial', sans-serif !important;
+     font-weight: inherit !important;
+     border-radius: 0 !important;
+     text-transform: lowercase !important;
+     font-size: 18px !important;
+     border-color: rgb(255, 255, 255)!important;
+     color: rgb(255, 255, 255)!important;
+     background-color: transparent!important;
+}
+ .border-btn a:hover {
+     padding: 14px 20px !important;
+     border:solid 1px #ff5100 !important;
+     font-family: 'ralewayregular', 'Arial', sans-serif !important;
+     font-weight: inherit !important;
+     border-radius: 0 !important;
+     text-transform: lowercase !important;
+     font-size: 18px !important;
+     background-color: #ff5100 !important;
+     color: #ffffff !important;
+}
+ .field-wrap button:hover,.field-wrap input[type=button]:hover,.field-wrap input[type=submit]:hover,button[disabled]:hover,button[disabled]:focus,input[type="button"][disabled]:hover,input[type="button"][disabled]:focus,input[type="reset"][disabled]:hover,input[type="reset"][disabled]:focus,input[type="submit"][disabled]:hover,input[type="submit"][disabled]:focus {
+     background-color: #212322;
+     box-shadow: 0px 15px 20px rgba(33,35,34, 0.4) !important;
+     -webkit-box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+     -moz-box-shadow: 0px 15px 20px rgba(33,35,34,.4) !important;
+     color: #fff;
+     transform: translateY(-7px);
+     -webkit-transform: translateY(-7px);
+     -moz-transform: translateY(-7px);
+}
+/**************** * Media Queries ****************/
+/*Tablets portrait*/
+ @media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation: portrait) {
+    .mobile-padding {
+        padding:0 15px;
+    }
+    .footer-widgets p, .footer-widgets a,.social-icons ul,.footer-widgets li,
+    .footer-widget .widget_text.widget.widget_custom_html {
+        text-align: center;
+    }
+    #custom_html-1 > div > img,.wp-image-27494.alignleft  {
+        float: none;
+        margin:0 auto;
+        padding-top: 40px;
+    }
+    .hello {
+        text-align: center;
+        padding-top: 0px;
+    }
+    .header-top .c9, .header-top-dark .c9,.hide-me-ipad {
+         display: none !important;
+    }
+    .header-top img.custom-logo, .header-top-dark img.custom-logo {
+         max-width: 180px;
+         text-align: left;
+         margin: 0;
+    }
+    .home .entry-content h2 {
+        font-size: 2.3em;
+    }
+     .page-title, span.entry-title {
+         font-size:1.3em;
+         line-height:1em;
+         padding: 0;
+         text-align: center;
+    }
+     .no-sidebar .post-thumbnail img {
+         margin-bottom: 30px !important;
+    }
+     .show-me-on-mobile {
+         display:block;
+    }
+    .social-icons li a span {
+        padding-right: 20px !important;
+    }
+    .footer-widgets .widget {
+        padding: 0;
+        margin: 30px 0;
+    }
+    div.pushup {
+        font-size: 2.7em;
+        line-height: 1em;
+    }
+    .process-row h3 {
+        color: #ffffff;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+ @media only screen and (max-width:48em) {
+     #layered-hero {
+         background-image: url(img/mobile-hm-hero.png) !important;
+         background-position: center 85% !important;
+    }
+     .shrink {
+         max-height: 300px !important;
+    }
+	blockquote {
+		font-size: 1em;
+	}
+}
+ @media screen and (min-width: 44.375em) {
+     .menu-toggle {
+         display:none !important;
+    }
+}
+/* For displaying 3 columns on tablet */
+ @media only screen and (max-width: 800px) {
+     * {
+         animation: none !important;
+    }
+     .gallery-columns-6 .gallery-item {
+         max-width: 33%;
+    }
+}
+/* For displaying single column on mobile */
+ @media only screen and (max-width: 480px) {
+     .gallery-columns-6 .gallery-item {
+         max-width: 50%;
+    }
+}
+/*** All Phones Portrait Only*/
+ @media screen and (max-width: 33em) {
+
+    .footer-widgets p, .footer-widgets a,.social-icons ul,.footer-widgets li,
+    .footer-widget .widget_text.widget.widget_custom_html {
+        text-align: center;
+    }
+    #custom_html-1 > div > img,.wp-image-27494.alignleft {
+        float: none;
+        margin:0 auto;
+    }
+    .entry-content h1 {
+        margin-top: 0;
+    }
+    h2, .entry-content h2, .entry-summary h2, .comment-content h2 {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+    .home .entry-content h2 {
+        font-size: 2em;
+    }
+     .col-border {
+         border:none !important;
+    }
+     .single-post .custom-headings span.entry-title, .custom-headings span.entry-title {
+         font-size: 30px;
+         text-align: center;
+         display: block;
+    }
+     .custom-header {
+         max-height: 300px;
+    }
+    .single .custom-headings {
+        top: 30%;
+        width: 100%;
+    }
+    .page .custom-headings {
+         top: 40%;
+         width: 100%;
+    }
+     .page-subtitle {
+         width: 92%;
+         left: 50%;
+         bottom: 2%;
+         text-align:center;
+    }
+     .counting-heading > h2 {
+         font-size: 2.3em;
+    }
+     .reverse-row {
+         flex-direction: column-reverse;
+    }
+     .gallery-columns-4 .gallery-item {
+         max-width: 50%;
+    }
+     .blog span.entry-title a {
+         color: #212322;
+         font-size: 34px;
+    }
+    .hide-me,.footer-widgets li::before {
+        display: none !important;
+    }
+    .hello {
+        text-align: center;
+        padding-top: 40px;
+    }
+     div.hello > a {
+         font-size: 1.1em;
+    }
+    
+}

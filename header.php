@@ -13,7 +13,7 @@
 <?php get_template_part( 'template-parts/head', 'meta' ); ?>
 
     <body <?php body_class(); ?> >
-    
+
     <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'molecule' ); ?></a>
 
         <header id="masthead" class="header-global">
@@ -166,5 +166,7 @@
             <?php endif; ?>
 
         </header><!-- end .header-global -->
-       
+
+            <?php if ( !is_front_page() ) : ?> <?php endif; ?>
+                
         <main class="page-content">
